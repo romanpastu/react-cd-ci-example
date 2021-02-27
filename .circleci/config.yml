@@ -118,7 +118,7 @@ workflows:
               only:
                 - develop
                 - staging 
-                - master          
+                - main          
 
 
 
