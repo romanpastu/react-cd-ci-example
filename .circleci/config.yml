@@ -1,7 +1,7 @@
 version: 2.1
 executors:
   app-executor:
-  docker:
+    docker:
       - image: circleci/node:15.5.0
     working_directory: ~/repo
 
