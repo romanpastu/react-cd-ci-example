@@ -16,7 +16,6 @@ aliases:
         - app-{{ checksum "package.json" }}
         - app-
   - &install-dependencies
-    restore_cache:
       run: 
         name: Install dependencies
         command: npm install
